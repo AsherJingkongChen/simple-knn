@@ -59,6 +59,3 @@ def test_evaluation():
     for i, e in TestData_distXXX2:
         o = distCUDA2(i.cuda())
         check(e, o)
-
-test_dimensionality()
-test_evaluation()

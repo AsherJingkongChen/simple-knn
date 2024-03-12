@@ -1,0 +1,3 @@
+"""
+pytest -s tests/*.py
+"""
