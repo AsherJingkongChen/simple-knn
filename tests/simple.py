@@ -1,5 +1,6 @@
 import torch
 from simple_knn._C import distCUDA2
+# from simple_knn import distTorch2
 
 torch.set_printoptions(precision=7)
 
